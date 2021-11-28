@@ -1,3 +1,9 @@
 branchLabels:
   dev: ['dev']
-  main: ['Main', '2', '3']
+  main: ['Main']
+  bugFix:  ['bugFix']
+  crashFix:  ['crashFix']
+  hotFix:  ['hotFix']
+  feature:  ['feature']
+  enhancement:  ['enhancement']
+  documentation:  ['documentation']

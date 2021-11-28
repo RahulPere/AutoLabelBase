@@ -22,6 +22,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         
      - name: PR labeler
+       if: github.event.pull_request.draft == false
        uses: nrccua-walter-manger/pr-label-by-base@v0.1-alpha
        with:
         configuration-path: .github/pr-label-by-base.yml
